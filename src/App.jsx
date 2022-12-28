@@ -1,4 +1,4 @@
-import cardsData from './cardsData';
+import cardsData from './CardsData';
 import './App.css';
 import { useState } from "react";
 
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">      
        <h2>Memory Play </h2>
-      
+      {/* <CardsData/> */}
       <div className="cards-container">
       {
         cardsList.map((card, i) => (
